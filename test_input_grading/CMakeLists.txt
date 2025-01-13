@@ -1,0 +1,6 @@
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test_five_ppws24_D75C_universe.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test_five_ppws24_D75C_universe_after_one_epoch.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test_five_ppws24_D75C_universe_after_50_epochs.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test_five_ppws24_D75C_universe_after_calculate_velocities.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test_five_ppws24_D75C_universe_after_calculate_forces.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/test_five_ppws24_D75C_universe_after_calculate_positions.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})

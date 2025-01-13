@@ -3,6 +3,7 @@
 #include <stdexcept>
 #include <tuple>
 #include <cstdint>
+#include <cmath>
 
 template <typename T> class Vector2d{
 public:
@@ -48,6 +49,11 @@ public:
             return std::get<1>(contents);
         }
         throw std::invalid_argument("Out of bounds access to Vector2d");
+    }
+    double length() const {
+        T x = std::get<0>(contents);
+        T y = std::get<1>(contents);
+        return std::sqrt(x * x + y * y);  // Euklidische Norm (Länge des Vektors)
     }
 
 private:
